@@ -1,0 +1,30 @@
+{
+  "name": "cs101-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "karma": "~0.12.31",
+    "browserify": "^9.0.3",
+    "babelify": "~5.0.3",
+    "karma-browserify": "~3.0.2",
+    "karma-jasmine": "~0.3.5",
+    "karma-phantomjs-launcher": "~0.1.4"
+  },
+  "scripts": {
+    "test": "karma start ./karma.conf.js",
+    "test:tdd": "karma start ./karma.conf.js --auto-watch --no-single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaredProske/cs101-kata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaredProske/cs101-kata/issues"
+  },
+  "homepage": "https://github.com/JaredProske/cs101-kata#readme"
+}
