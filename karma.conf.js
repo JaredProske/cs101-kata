@@ -2,7 +2,7 @@ module.exports = function(config) {
     config.set({
 
         basePath: '',
-        frameworks: ['browserify', 'jasmine'],
+        frameworks: ['browserify', 'jasmine', 'es6-shim'],
 
         files: [
             'src/**/*.js',
