@@ -6,7 +6,7 @@ export function doesPathExist(directedEdges, distance, path) {
     }
 
     let nextEdges = directedEdges.filter(de => de.from === path.from);
-
+   
     if (distance === 1) {
         return nextEdges.some(e => e.to === path.to);
     }
@@ -26,6 +26,7 @@ export function doesPathExist(directedEdges, distance, path) {
             return true;
         }
     }
+    return false;
 }
 
 
